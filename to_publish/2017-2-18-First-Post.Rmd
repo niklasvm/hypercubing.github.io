@@ -28,3 +28,12 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r}
+library(tidyverse)
+ggplot(diamonds,aes(x=cut,y=price))+
+  geom_jitter(aes(col=clarity))+
+  geom_boxplot(alpha=0.5)
+
+```
+

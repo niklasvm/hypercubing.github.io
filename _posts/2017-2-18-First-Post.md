@@ -37,3 +37,14 @@ You can also embed plots, for example:
 ![center](/to_publish/figs/2017-2-18-First-Post/pressure-1.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+{% highlight r %}
+library(tidyverse)
+ggplot(diamonds,aes(x=cut,y=price))+
+  geom_jitter(aes(col=clarity))+
+  geom_boxplot(alpha=0.5)
+{% endhighlight %}
+
+![center](/to_publish/figs/2017-2-18-First-Post/unnamed-chunk-4-1.png)
+
