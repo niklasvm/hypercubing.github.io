@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi there! Welcome to my site!
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I'm Niklas and I'm a Data Science enthusiast currently working in the South African fintech industry.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+niklasvm at gmail dot com
