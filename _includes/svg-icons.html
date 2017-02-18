@@ -11,3 +11,12 @@
 {% if site.footer-links.stackoverflow %}<a href="http://stackoverflow.com/{{ site.footer-links.stackoverflow }}"><i class="svg-icon stackoverflow"></i></a>{% endif %}
 {% if site.footer-links.youtube %}<a href="https://youtube.com/{{ site.footer-links.youtube }}"><i class="svg-icon youtube"></i></a>{% endif %}
 {% if site.footer-links.googleplus %}<a href="https://plus.google.com/{{ site.footer-links.googleplus }}"><i class="svg-icon googleplus"></i></a>{% endif %}
+{% if site.footer-links.strava %}
+<style>
+  .strava-badge- { display: inline-block; height: 24px; }
+  .strava-badge- img { visibility: hidden; height: 24px; }
+  .strava-badge-:hover { background-position: 0 -37px; }
+  .strava-badge-follow { height: 24px; width: 24px; background: url(//badges.strava.com/echelon-sprite-24.png) no-repeat 0 0; }
+</style>
+<a href="http://strava.com/athletes/1411289/badge" class="strava-badge- strava-badge-follow" target="_blank"><img src="//badges.strava.com/echelon-sprite-24.png" alt="Strava" /></a>
+{% endif %}
