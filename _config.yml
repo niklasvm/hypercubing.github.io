@@ -6,7 +6,7 @@
 name: Hypercubing
 
 # Short bio or description (displayed in the header)
-description: This a description for Hypercubing
+description: Data science enthusiast, R programmer and Runner
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://img.clipartfest.com/47784ee8ecce8886bae95b45a87573cb_rubiks-cube-clip-art-rubiks-cube-clipart_282-297.png
@@ -37,7 +37,7 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-92226558-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
