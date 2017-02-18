@@ -12,6 +12,10 @@ I have an honours degree in Quantitative Finance and Statistics from the Univers
 
 I have been an avid [R](https://cran.r-project.org/) user for the last 10 years. I first learned to program in java as a youngster where I built silly computer games after school. At university I was introduced to R and then went on to teach it to students for the remainder of my degree.
 
+Outside of data and R I am a keen road runner, participating in races in and around Cape Town up to half-marathon distance.
+
+This site aims to showcase my adventures in data and coding.
+
 ### Contact me
 
 niklasvm at gmail dot com
