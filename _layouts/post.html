@@ -13,5 +13,7 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
+  {% if site.owner.disqus-shortname and page.comments == true %}
   {% include disqus.html %}
+  {% endif %}
 </article>
