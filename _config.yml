@@ -1,0 +1,64 @@
+#
+# This file contains configuration flags to customize your site
+#
+
+# Name of your site (displayed in the header)
+name: Niklas von Maltzahn
+
+# Short bio or description (displayed in the header)
+description: Data science enthusiast | R programmer | Runner
+
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://img.clipartfest.com/47784ee8ecce8886bae95b45a87573cb_rubiks-cube-clip-art-rubiks-cube-clipart_282-297.png
+
+#
+# Flags below are optional
+#
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  github: niklasvm
+  linkedin: niklas-von-maltzahn-4654b832
+  rss: rss
+  twitter: niklasvm
+
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: niklasvm
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-92226558-1
+
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
+url: http://niklasvm.github.io
+baseurl: ""
+
+#markdown: kramdown
+#highlighter: rouge
+#permalink: pretty
+
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
+theme: jekyll-theme-minimal
+
+############## niklas stuff
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
